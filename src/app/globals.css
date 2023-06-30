@@ -1,6 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Orbitron&display=swap');
+
+html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -25,3 +37,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.clippedButton {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0% 100%);
+}
+

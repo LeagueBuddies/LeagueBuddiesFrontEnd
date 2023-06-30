@@ -20,7 +20,12 @@ module.exports = {
       "footer": "#C3CAD5", //grey
       "black": "#070410",
       "secondaryColor": "#D62839", //orangered 
+      "darkSecondary" : "#A11E2B", //dark orange red
       'whiteColor': '#FFFFFF'
+    },
+    fontFamily: {
+      'sans': ['Montserrat', 'sans-serif'],
+      'orbit': ['Orbitron', 'sans-serif']
     }
   },
   plugins: [],
