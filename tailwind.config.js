@@ -17,7 +17,8 @@ module.exports = {
       "primaryColor": "#4338CA", //blue
       "bgColor": "#1A103C", // For most pages, dark purple blue
       "textColor": "#E4E4E4", //white
-      "footer": "#C3CAD5", //grey
+      "footer": "#222222", //grey
+      "footertext" : "#585858", //light grey
       "black": "#070410",
       "secondaryColor": "#D62839", //orangered 
       "darkSecondary" : "#A11E2B", //dark orange red

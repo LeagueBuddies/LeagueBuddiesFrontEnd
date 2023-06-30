@@ -2,6 +2,7 @@ import Image from "next/image";
 import heroImage from "../../public/images/blockletters.svg";
 
 import Navbar from "../components/navbar/navbar";
+import Footer from "../components/navbar/footer"
 
 export default function Home() {
   const hasAccount = false;
@@ -22,7 +23,7 @@ export default function Home() {
           level.
         </p>
         <button className="font-orbit text-lg clippedButton m-4 text-textColor py-2 w-48 bg-secondaryColor text-center cursor-pointer hover:bg-darkSecondary ease-in-out duration-300">
-          Find Buddies
+         <span className="buttonfont">Find Buddies</span>
         </button>
         <div className="ml-4 mr-4 mt-16 mb-4 hidden sm:block">
           <Image
@@ -32,7 +33,16 @@ export default function Home() {
             height={105}
           />
         </div>
-      </main>
+        </main>
+        <Footer 
+        home="#home" 
+        about="#about" 
+        contact="#contact" 
+        twitter="http://twitter.com/LeagueBuddies" 
+        github="https://github.com/LeagueBuddies"
+        facebook="http://facebook.com/youraccount"
+        linkedin="http://linkedin.com/youraccount"
+      />
     </>
   );
 }
