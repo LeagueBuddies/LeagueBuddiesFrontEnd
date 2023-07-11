@@ -23,7 +23,7 @@ export default function Home() {
           level.
         </p>
         <button className="font-orbit text-lg clippedButton m-4 text-textColor py-2 w-48 bg-secondaryColor text-center cursor-pointer hover:bg-darkSecondary ease-in-out duration-300">
-         <span className="buttonfont">Find Buddies</span>
+         Find Buddies
         </button>
         <div className="ml-4 mr-4 mt-16 mb-4 hidden sm:block">
           <Image

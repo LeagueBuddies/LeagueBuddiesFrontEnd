@@ -3,12 +3,16 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Orbitron&display=swap');
 
+html {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
 html,
-  body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif !important;
-  }
+    body {
+      padding: 0;
+      margin: 0;
+      /* font-family: 'Montserrat', sans-serif !important; */
+    }
 
   * {
     box-sizing: border-box;
@@ -38,8 +42,4 @@ body {
 
 .clippedButton {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0% 100%);
-}
-
-.buttonfont {
-  font-family: 'Orbitron' !important;
 }
