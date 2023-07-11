@@ -28,7 +28,7 @@ const Navbar: React.FC<NavBarProps> = ({ hasAccount, username }) => {
   return (
     <nav className="w-full flex items-center justify-between bg-primaryColor p-6">
       <div className="flex items-center text-white mr-6">
-        <span className="text-4xl tracking-tight">
+        <span className="text-4xl font-medium tracking-tight">
           LEAGUE BUDDIES
         </span>
       </div>

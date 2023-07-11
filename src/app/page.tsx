@@ -1,4 +1,5 @@
 import Image from "next/image";
+import bgImage from "../../public/images/leaguebg.png";
 import heroImage from "../../public/images/blockletters.svg";
 
 import Navbar from "../components/navbar/navbar";
@@ -11,8 +12,8 @@ export default function Home() {
   return (
     <>
       <Navbar hasAccount={hasAccount} username={username} />
-      <main className="font-sans flex flex-col items-center justify-center h-screen">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl m-4 text-center max-w-2xl font-bold">
+      <main className="font-sans flex flex-col items-center justify-center h-screen bg-[url('/images/leaguebg.png')] bg-cover bg-center">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl m-4 text-center max-w-2xl font-semibold">
           The Best Place To Find League Teammates
         </h1>
         <p className="text-sm sm:text-base md:text-lg lg:text-xl max-w-xlg m-4 text-center max-w-2xl">
