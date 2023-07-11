@@ -26,7 +26,7 @@ const Navbar: React.FC<NavBarProps> = ({ hasAccount, username }) => {
   const NavItems = hasAccount ? userNavItems : guestNavItems;
 
   return (
-    <nav className="flex items-center justify-between bg-primaryColor p-6">
+    <nav className="w-full flex items-center justify-between bg-primaryColor p-6">
       <div className="flex items-center text-white mr-6">
         <span className="text-4xl tracking-tight">
           LEAGUE BUDDIES
